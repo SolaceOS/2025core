@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Solace for Retail & Grocery</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="logo.jpg" alt="Solace Logo" style="height: 50px;"></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="quote.html">Quote</a>
+            <a href="loi.html">LOI</a>
+            <a href="investors.html">Investors</a>
+        </nav>
+    </header>
+    <section class="section">
+        <h1>Solace for Retail & Grocery</h1>
+        <div class="color-section color1">
+            <h2>Never Miss a Delivery Window Again</h2>
+            <p>Solace prevents SLA violations and shelf stockouts with dynamic fallback logic for high-volume distribution hubs.</p>
+        </div>
+        <div class="color-section color2">
+            <h2>How It Works</h2>
+            <p>Fallback profiles reroute inventory, prioritize perishables, and auto-export ESG-compliant supply recovery paths.</p>
+        </div>
+        <div class="color-section color3">
+            <h2>Why It Matters</h2>
+            <p>Solace protects revenue, reduces penalties, and keeps groceries on the shelf — even when the system breaks.</p>
+        </div>
+        <div class="cta">
+            <a class="btn" href="quote.html">Build My Pricing Quote</a>
+            <a class="btn btn-alt" href="loi.html">Start Retail Pilot</a>
+        </div>
+    </section>
+    <footer><p>© 2025 Solace. All rights reserved.</p></footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Solace for Defense & Military</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="defense">
+    <header>
+        <div class="logo"><img src="logo.jpg" alt="Solace Logo" style="height: 50px;"></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="quote.html">Quote</a>
+            <a href="loi.html">LOI</a>
+            <a href="investors.html">Investors</a>
+        </nav>
+    </header>
+
+    <section class="section">
+        <h1>Solace for Defense & Military</h1>
+        <div class="color-section color1">
+            <h2>Tactical Fallback, Federated Logic</h2>
+            <p>Solace orchestrates fallback for convoys, sovereign deployments, and mission-critical military logistics at scale.</p>
+        </div>
+        <div class="color-section color2">
+            <h2>How It Works</h2>
+            <p>Deploys permissioned Profiles with escalation tiers, reroute logic, and sovereign fallback sync — with full audit capability.</p>
+        </div>
+        <div class="color-section color3">
+            <h2>Why It Matters</h2>
+            <p>Military failure isn’t an option. Solace prevents it through proactive simulation and autonomous fallback layers.</p>
+        </div>
+        <div class="cta">
+            <a class="btn" href="quote.html">Request Defense Pricing</a>
+            <a class="btn btn-alt" href="loi.html">Launch Tactical Pilot</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Solace. All rights reserved.</p>
+    </footer>
+</body>
+</html>

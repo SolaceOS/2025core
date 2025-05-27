@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Solace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="why">
+    <header>
+        <div class="logo"><img src="logo.jpg" alt="Solace Logo" style="height: 50px;"></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="how.html">How It Works</a>
+            <a href="quote.html">Quote</a>
+            <a href="loi.html">LOI</a>
+            <a href="investors.html">Investors</a>
+        </nav>
+    </header>
+    <section class="section">
+        <h1>Why Solace Exists</h1>
+        <p>Solace is the fallback infrastructure the world forgot to build.</p>
+        <div class="color-section color1">
+            <h2>Legacy systems show problems. Solace solves them.</h2>
+            <p>While other platforms focus on visibility or tracking, Solace pre-simulates failure and offers fallback before it happens.</p>
+        </div>
+        <div class="color-section color2">
+            <h2>A Planet-Scale Resilience System</h2>
+            <p>We deploy fallback logic across industries, geographies, and sovereign zones — with full simulation and export auditing.</p>
+        </div>
+        <div class="color-section color3">
+            <h2>Uncopyable. Untouchable. Unbreakable.</h2>
+            <p>Backed by 100+ patents, Solace is architected to be the AWS of fallback logic.</p>
+        </div>
+    </section>
+    <footer><p>© 2025 Solace. All rights reserved.</p></footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Solace for Pharma & Cold Chain</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="pharma">
+    <header>
+        <div class="logo"><img src="logo.jpg" alt="Solace Logo" style="height: 50px;"></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="quote.html">Quote</a>
+            <a href="loi.html">LOI</a>
+            <a href="investors.html">Investors</a>
+        </nav>
+    </header>
+
+    <section class="section">
+        <h1>Solace for Pharma & Cold Chain</h1>
+        <div class="color-section color1">
+            <h2>Fallback When Lives Depend On It</h2>
+            <p>From vaccine spoilage to critical delivery delays, Solace provides simulation-first fallback logic for global cold chain logistics.</p>
+        </div>
+        <div class="color-section color2">
+            <h2>How It Works</h2>
+            <p>We simulate delays, reallocate inventory, and generate exportable fallback plans to ensure medicine, vaccines, and critical assets reach their destinations.</p>
+        </div>
+        <div class="color-section color3">
+            <h2>Why It Matters</h2>
+            <p>Pharma organizations face fines, losses, and compliance risks when disruptions hit. Solace delivers the operational resilience they need — with ESG-ready exports.</p>
+        </div>
+        <div class="cta">
+            <a class="btn" href="quote.html">Generate My Quote</a>
+            <a class="btn btn-alt" href="loi.html">Start My Pilot</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Solace. All rights reserved.</p>
+    </footer>
+</body>
+</html>

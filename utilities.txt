@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Solace for Utilities & Energy</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="logo.jpg" alt="Solace Logo" style="height: 50px;"></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="quote.html">Quote</a>
+            <a href="loi.html">LOI</a>
+            <a href="investors.html">Investors</a>
+        </nav>
+    </header>
+    <section class="section">
+        <h1>Solace for Utilities & Energy</h1>
+        <div class="color-section color1">
+            <h2>Prevent Outages. Reroute Energy. Report with Confidence.</h2>
+            <p>Fallback orchestration for substations, grids, and crews that powers modern utilities with logic-based resilience.</p>
+        </div>
+        <div class="color-section color2">
+            <h2>How It Works</h2>
+            <p>Agent logic dispatches crews, reroutes grid loads, and compresses delays across critical energy infrastructure.</p>
+        </div>
+        <div class="color-section color3">
+            <h2>Why It Matters</h2>
+            <p>Solace helps avoid blackouts, SLA penalties, and compliance risk. All fallback logic is exportable and auditable.</p>
+        </div>
+        <div class="cta">
+            <a class="btn" href="quote.html">Quote for My Utility</a>
+            <a class="btn btn-alt" href="loi.html">Run Fallback Pilot</a>
+        </div>
+    </section>
+    <footer><p>© 2025 Solace. All rights reserved.</p></footer>
+</body>
+</html>

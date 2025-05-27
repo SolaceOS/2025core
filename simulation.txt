@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fallback Simulation | Solace</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .sim-builder {
+      max-width: 700px;
+      margin: auto;
+      background: #111;
+      padding: 20px;
+      border-radius: 10px;
+      color: white;
+    }
+    .sim-result {
+      background: #222;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+    select, button {
+      padding: 10px;
+      margin: 10px 0;
+      width: 100%;
+      font-size: 16px;
+    }
+    .sim-label {
+      margin: 10px 0 5px;
+    }
+    .sim-heading {
+      font-size: 26px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="logo.jpg" alt="Solace Logo" style="height: 50px;"></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="simulation.html">Simulation</a>
+      <a href="quote.html">Quote</a>
+      <a href="loi.html">LOI</a>
+      <a href="faq.html">FAQ</a>
+      <a href="investors.html">Investors</a>
+    </nav>
+  </header>
+
+  <section class="section sim-builder">
+    <div class="sim-heading">Run a Live Fallback Simulation</div>
+    <label class="sim-label">Choose Your Industry:</label>
+    <select id="industrySelect">
+      <option value="">-- Select Industry --</option>
+      <option value="pharma">Pharma & Cold Chain</option>
+      <option value="defense">Defense & Military</option>
+      <option value="utilities">Utilities & Energy</option>
+      <option value="government">Government / Disaster</option>
+      <option value="retail">Retail & Grocery</option>
+    </select>
+
+    <label class="sim-label">Choose a Disruption Scenario:</label>
+    <select id="scenarioSelect">
+      <option value="">-- Select Scenario --</option>
+    </select>
+
+    <button onclick="runSimulation()">Simulate Fallback</button>
+
+    <div class="sim-result" id="simulationResult">
+      <p>Select a scenario to simulate fallback and see pricing.</p>
+    </div>
+  </section>
+
+  <footer><p style="text-align: center;">© 2025 Solace. All rights reserved.</p></footer>
+
+  <script>
+    const scenarios = {
+      pharma: {
+        "Cold Chain Interruption": {
+          result: "Fallback to temp-controlled DC in 4 minutes. Spoilage avoided.",
+          pilot: "$125,000/year (2 fallback zones)",
+          full: "$750,000/year (5 fallback zones + ESG)",
+          savings: "$8.2M/year"
+        }
+      },
+      defense: {
+        "Convoy Route Breach": {
+          result: "Hostile path detected. Safe fallback route activated.",
+          pilot: "$500,000/year (2 zones, classified tier)",
+          full: "$3,000,000/year (federated + secure fallback)",
+          savings: "$38M in asset protection"
+        }
+      },
+      utilities: {
+        "Substation Surge": {
+          result: "Load redistributed via fallback grid. Blackout avoided.",
+          pilot: "$275,000/year (single substation)",
+          full: "$950,000/year (4-zone ESG routing)",
+          savings: "$21M in downtime costs"
+        }
+      },
+      government: {
+        "Flooded Aid Depot": {
+          result: "Fallback relief center activated. SLA maintained.",
+          pilot: "$350,000/year (zone-specific pilot)",
+          full: "$1,200,000/year (10 fallback zones + SLA export)",
+          savings: "$15M in disaster recovery delays"
+        }
+      },
+      retail: {
+        "Holiday Truck Breakdown": {
+          result: "Fallback carrier triggered. SLA preserved.",
+          pilot: "$150,000/year (metro pilot)",
+          full: "$600,000/year (ESG fallback logic + auto reroute)",
+          savings: "$6.5M in refund + shelf loss prevention"
+        }
+      }
+    };
+
+    const industrySelect = document.getElementById("industrySelect");
+    const scenarioSelect = document.getElementById("scenarioSelect");
+    const simulationResult = document.getElementById("simulationResult");
+
+    industrySelect.addEventListener("change", () => {
+      const industry = industrySelect.value;
+      scenarioSelect.innerHTML = '<option value="">-- Select Scenario --</option>';
+      if (scenarios[industry]) {
+        Object.keys(scenarios[industry]).forEach(name => {
+          const opt = document.createElement("option");
+          opt.value = name;
+          opt.text = name;
+          scenarioSelect.appendChild(opt);
+        });
+      }
+    });
+
+    function runSimulation() {
+      const industry = industrySelect.value;
+      const scenario = scenarioSelect.value;
+      if (!industry || !scenario || !scenarios[industry][scenario]) return;
+
+      const sim = scenarios[industry][scenario];
+      simulationResult.innerHTML = `
+        <h3>Fallback Simulation</h3>
+        <p><strong>Scenario:</strong> ${scenario}</p>
+        <p><strong>Fallback Result:</strong> ${sim.result}</p>
+        <p><strong>Pilot Price:</strong> ${sim.pilot}</p>
+        <p><strong>Full Deployment:</strong> ${sim.full}</p>
+        <p><strong>Estimated Savings:</strong> ${sim.savings}</p>
+        <a class="btn" href="loi.html">Generate LOI</a> &nbsp;
+        <a class="btn btn-alt" href="quote.html">Customize Pricing</a>
+      `;
+    }
+  </script>
+</body>
+</html>

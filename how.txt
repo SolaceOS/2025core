@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Solace Works</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="how">
+    <header>
+        <div class="logo"><img src="logo.jpg" alt="Solace Logo" style="height: 50px;"></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="why.html">Why Solace</a>
+            <a href="quote.html">Quote</a>
+            <a href="loi.html">LOI</a>
+            <a href="investors.html">Investors</a>
+        </nav>
+    </header>
+    <section class="section">
+        <h1>How Solace Works</h1>
+        <div class="color-section color1">
+            <h2>1. Deploy Fallback Profiles</h2>
+            <p>Industry-specific Profiles are configured to simulate real-world disruptions — across routes, assets, delays, and SLAs.</p>
+        </div>
+        <div class="color-section color2">
+            <h2>2. Simulate Failure</h2>
+            <p>Solace runs logic against synthetic risk scenarios to test readiness and expose vulnerabilities — before they occur.</p>
+        </div>
+        <div class="color-section color3">
+            <h2>3. Export Auditable Logic</h2>
+            <p>Fallback logic is exported in ESG-aligned format, ready to show regulators, customers, or investors.</p>
+        </div>
+    </section>
+    <footer><p>© 2025 Solace. All rights reserved.</p></footer>
+</body>
+</html>

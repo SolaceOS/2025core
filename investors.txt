@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Investor Hub | Solace</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="logo.jpg" alt="Solace Logo" style="height: 50px;"></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="simulation.html">Simulation</a>
+      <a href="quote.html">Quote</a>
+      <a href="loi.html">LOI</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+  </header>
+
+  <section class="section">
+    <h1>Investor Hub</h1>
+
+    <div class="color-section color2">
+      <h2>Solace: The Fallback OS</h2>
+      <p>Solace is building the world’s first fallback logistics operating system — engineered for infrastructure-scale disruptions. Our platform powers fallback simulation, rerouting, ESG-compliant dispatch, and real-time profile deployment.</p>
+    </div>
+
+    <div class="color-section color1">
+      <h2>Product Demo Tools</h2>
+      <ul>
+        <li><a href="simulation.html">Live Fallback Simulation</a></li>
+        <li><a href="quote.html">Dynamic Quote Generator</a></li>
+        <li><a href="loi.html">LOI Generator (PDF)</a></li>
+        <li><a href="fallback-animation.html">Fallback Routing Animation</a></li>
+      </ul>
+    </div>
+
+    <div class="color-section color3">
+      <h2>How Solace Works: Behind the Scenes</h2>
+      <p>Solace Profiles are powered by patent-backed logic that simulates disruptions before they happen — and activates fallback responses in real time.</p>
+      <ul>
+        <li>Autonomous fallback agents</li>
+        <li>Federated profile syncing</li>
+        <li>ESG and SLA constraint-based rerouting</li>
+        <li>Simulation replay and export logic</li>
+      </ul>
+      <p>During early deployment, all fallback routes are approved manually by your team. Once scaled, agent logic will operate autonomously — rerouting freight, power, or relief before damage occurs.</p>
+    </div>
+
+    <div class="color-section color1">
+      <h2>Defensibility: Powered by 30+ Patents</h2>
+      <p>Solace has filed over 30 foundational patents covering fallback orchestration, agent coordination, ESG routing, logic export, and sovereign-grade resilience. Every profile you run is protected by this IP fortress.</p>
+    </div>
+
+    
+<div class="color-section color3">
+  <h2>Investor Access</h2>
+  <p>The Solace data room and investor materials will be available shortly.</p>
+  <a href="#" class="btn" style="margin-right:10px;">View Pitch Deck (Coming Soon)</a>
+  <a href="#" class="btn btn-alt">Access Data Room (Coming Soon)</a>
+</div>
+
+<div class="color-section color2">
+  <h2>Request a Pilot or Get in Touch</h2>
+  <form action="https://formspree.io/f/mwkgybvg" method="POST">
+    <label>Your Name:</label>
+    <input type="text" name="name" required style="padding:8px;width:100%;margin-bottom:10px;">
+    <label>Email Address:</label>
+    <input type="email" name="email" required style="padding:8px;width:100%;margin-bottom:10px;">
+    <label>Company / Organization:</label>
+    <input type="text" name="company" style="padding:8px;width:100%;margin-bottom:10px;">
+    <label>Interest (e.g., Pilot, Investment, Demo):</label>
+    <input type="text" name="interest" style="padding:8px;width:100%;margin-bottom:10px;">
+    <button type="submit" style="padding:10px 20px; background:#fff; color:#000; font-weight:bold;">Submit</button>
+  </form>
+</div>
+
+<div class="cta">
+      <a href="simulation.html" class="btn">Run a Simulation</a>
+      <a href="loi.html" class="btn btn-alt">Generate an LOI</a>
+    </div>
+  </section>
+
+  <footer><p style="text-align: center;">© 2025 Solace. All rights reserved.</p></footer>
+</body>
+</html>

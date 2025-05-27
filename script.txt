@@ -1,0 +1,12 @@
+
+function generateQuote() {
+    const zones = parseInt(document.getElementById('zones').value);
+    const complexity = parseFloat(document.getElementById('complexity').value);
+    const sovereign = document.getElementById('sovereign').checked ? 250000 : 0;
+    const esg = document.getElementById('esg').checked ? 150000 : 0;
+
+    const base = 50000 * zones;
+    const quote = base * complexity + sovereign + esg;
+
+    document.getElementById('quoteResult').innerText = "Estimated Annual Quote: $" + quote.toLocaleString();
+}

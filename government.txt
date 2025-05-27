@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Solace for Government & Disaster</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="logo.jpg" alt="Solace Logo" style="height: 50px;"></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="quote.html">Quote</a>
+            <a href="loi.html">LOI</a>
+            <a href="investors.html">Investors</a>
+        </nav>
+    </header>
+    <section class="section">
+        <h1>Solace for Government & Disaster Response</h1>
+        <div class="color-section color1">
+            <h2>Resilience as a Public Safety Tool</h2>
+            <p>From hurricanes to cyberattacks, Solace simulates response plans and automates fallback to ensure services never fail.</p>
+        </div>
+        <div class="color-section color2">
+            <h2>How It Works</h2>
+            <p>Simulates regional outages, reroutes services, generates ESG/SLA reports — all exportable to disaster recovery playbooks.</p>
+        </div>
+        <div class="color-section color3">
+            <h2>Why It Matters</h2>
+            <p>Governments are now accountable for supply chain resilience. Solace gives them auditable fallback logic in real time.</p>
+        </div>
+        <div class="cta">
+            <a class="btn" href="quote.html">Request Government Quote</a>
+            <a class="btn btn-alt" href="loi.html">Start My Public Pilot</a>
+        </div>
+    </section>
+    <footer><p>© 2025 Solace. All rights reserved.</p></footer>
+</body>
+</html>
